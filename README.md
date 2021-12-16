@@ -1,3 +1,3 @@
-# basic-node-graphql
-basic-node-graphql
-=> initial basic satup #1
+# Setup/Development Learning flow
+### initial basic setup
+##### https://github.com/binitghetiya/basic-node-graphql/pull/1
