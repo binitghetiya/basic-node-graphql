@@ -7,3 +7,6 @@
 
 ### Add other type and make relationship queries so we can simply use queries
 ##### https://github.com/binitghetiya/basic-node-graphql/pull/3
+
+### Added depth limit condition for our relations queries
+##### https://github.com/binitghetiya/basic-node-graphql/pull/4
