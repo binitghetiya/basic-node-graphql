@@ -28,6 +28,18 @@ const resolvers = {
       );
       return result.affectedRows ? true : false;
     },
+    createBook: async (_, args, context) => {
+      const result = await context.callToMysql(
+        "INSERT INTO `books` (`name`, `type`, `authorId`) VALUES ('" +
+          args.name +
+          "', '" +
+          args.type +
+          "', '" +
+          args.authorId +
+          "');"
+      );
+      return result.affectedRows ? true : false;
+    },
   },
 
   /*
